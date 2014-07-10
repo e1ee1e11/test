@@ -11,7 +11,7 @@ main()
 	/*new line*/
 	/*~~~~~~~~~~~~~~~WORD~~~~~~~~~~~~~~TEST~~~~~~~~~~~~~*/
 	/*I understand git gradually.......that's fantastic!!*/
-	/*I'm stock in checkout....*/
+	/*I'm stuck in checkout....*/
 	/*I understand checkout back and merge now!!*/
 }
 
