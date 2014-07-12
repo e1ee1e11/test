@@ -13,5 +13,6 @@ main()
 	/*I understand git gradually.......that's fantastic!!*/
 	/*I'm stuck in checkout....*/
 	/*I understand checkout back and merge now!!*/
+	/*Bitbucket has unlimited private code repositories!!!*/
 }
 
