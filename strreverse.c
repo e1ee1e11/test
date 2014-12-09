@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-int strreserve(char *str)
+void strreserve(char *str)
 {
 	int i;
 	for(i=strlen(str)-1;i>=0;i--)
