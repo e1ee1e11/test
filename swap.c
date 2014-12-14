@@ -1,19 +1,19 @@
 #include <stdio.h>
-void swap(int *a, int *b)
-{
-	int temp;
-	temp = *a;
-	*a=*b;
-	*b=temp;
+#define  SWAP(x,y,t)  ((t)=(x),(x)=(y),(y)=(t))
+void swap(int *a,int *b);
+int main(void) {
+    int a=1,b=2,c;
+    SWAP(a,b,c);
+    printf("%d, %d\n",a,b);
+    swap(&a,&b);
+    printf("%d, %d\n",a,b);
+    return(0);
 }
 
-int main()
+void swap(int *a,int *b)
 {
-	int a=5,b=10;
-	int *p1, *p2;
-	p1 = &a;
-	p2 = &b;
-	swap(p1, p2);
-	printf("%d, %d\n",a,b);
-	return 0;
+ int temp;
+ temp = *a;
+ *a = *b;
+ *b = temp;
 }
